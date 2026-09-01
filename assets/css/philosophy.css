@@ -1,0 +1,2064 @@
+
+
+body#philosophy .philosophy-section .first-section-texts {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100vh;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0 190px;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	margin-right: 162px;
+	position: relative;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text,
+body#philosophy .philosophy-section .first-section-texts .left-box .description {
+	-ms-writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 250px;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	margin-left: 3px;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text:first-child,
+body#philosophy .philosophy-section .first-section-texts .left-box .description:first-child {
+	margin-left: 0;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text.sp,
+body#philosophy .philosophy-section .first-section-texts .left-box .description.sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text {
+	height: 260px;
+	line-height: 1.6;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .description-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	margin-right: 37px;
+}
+
+body#philosophy .content-wrapper .description-img-box4 .right-box .button-box {
+	margin-right: auto;
+	margin-top: auto;
+    justify-content: space-around;
+    text-align: right;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .description-box.pc {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .border::before {
+	/*border-left: 1px solid #000;*/
+    /*border-left: 1px solid #fff;*/
+    border-left: none;
+	content: "";
+	display: block;
+	height: 30px;
+	margin: 0 10px;
+	margin-top: 6px;
+	width: 1px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .title {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 28px;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .sub-title-sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .first-section-texts .right-box {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	height: 350px;
+	position: relative;
+	width: 30%;
+}
+
+body#philosophy .philosophy-section .first-section-texts .right-box .sub-title {
+	font-size: 15px;
+	left: 0;
+	letter-spacing: 2px;
+	position: absolute;
+	top: -58px;
+}
+
+/* philosophy START */ 
+
+body#philosophy .philosophy-section .second-section {
+	/*margin-top: 288px;*/
+    margin-top: 160px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.pc {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.future {
+	padding-bottom: 288px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box {
+	margin: 0 auto;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .right-box .text-box .text {
+	line-height: 1.7;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 840px;
+
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	aspect-ratio: 840/560;
+	margin-bottom: 80px;
+	overflow: hidden;
+	width: 840px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box .picture {
+	-o-object-fit: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	justify-content: flex-end;
+	/*padding: 0 90px 240px;*/
+    padding: 0 90px 140px;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+}
+
+/*body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}*/
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+
+/*body#philosophy .philosophy-section .second-section #philosophy_top .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 480px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}*/
+
+
+#philosophy_top .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0.15em;
+    margin-top: 60px;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+    line-height: 2.3 !important;
+}
+
+/*body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}*/
+
+body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .second-section #kjima-teppei .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .second-section #yamanaka-text .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}
+
+/*body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: vertical-rl;
+}*/
+
+body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: 321px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.pc {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .vertical-title-wrapper {
+	margin: 0 0 0 82px;
+	min-height: 321px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box.land .vertical-title-wrapper {
+	margin: 0 0 0 82px;
+	min-height: 321px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box.bringing-new .vertical-title-wrapper {
+	margin: 0 0 0 82px;
+	min-height: 321px;
+}
+
+/* philosophy END */ 
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+
+body#philosophy .philosophy-section .second-section .content-box {
+	padding: 0 15px;
+}
+
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+
+body#philosophy .philosophy-section .second-section .description-img-box4 {
+	max-width: initial;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	margin-bottom: 47px;
+	width: 100vw;
+}
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+body#philosophy .philosophy-section .first-section-texts {
+	height: 100%;
+	margin-bottom: 300px;
+	padding: 220px 145px 0;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	margin-right: 0;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text,
+body#philosophy .philosophy-section .first-section-texts .left-box .description {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 28px;
+	height: auto;
+	letter-spacing: 0px;
+	margin-left: 0px;
+	width: 100%;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text.sp,
+body#philosophy .philosophy-section .first-section-texts .left-box .description.sp {
+	display: block;
+	margin-bottom: 37px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text {
+	height: auto;
+	line-height: 1.6;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .description-box.pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .border {
+	display: none;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .title {
+	font-size: 38px;
+	margin-bottom: 207px;
+	margin-left: auto;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .sub-title-sp {
+	display: block;
+	font-size: 28px;
+	left: 0;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 10px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .right-box {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section {
+	margin: 300px auto;
+}
+
+body#philosophy .philosophy-section .second-section .content-out-wrapper {
+	padding: 0 95px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.sp {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.future {
+	padding-bottom: 220px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.future .vertical-title-wrapper {
+	min-height: 325px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+body#philosophy .philosophy-section .second-section .vertical-title-wrapper {
+	min-height: 175px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	flex-direction: column-reverse;
+	padding: 0 50px 220px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+/*body#philosophy .philosophy-section .second-section #philosophy_top .description-img-box4 .right-box .text-box .text {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}*/
+
+    
+#philosophy_top .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	height: initial;
+	/*letter-spacing: 0px;*/
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+    line-height: 2.3 !important;
+    
+}
+    
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 28px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 28px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .second-section #kjima-teppei .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 28px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+  
+body#philosophy .philosophy-section .second-section #yamanaka-text .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 28px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+
+
+body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 28px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	text-align: justify;
+	writing-mode: horizontal-tb;
+}
+    
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.sp {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .vertical-title-wrapper {
+	margin: 80px 0 146px auto;
+	min-height: 315px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box.land .vertical-title-wrapper {
+	margin: 33px 0 146px auto;
+	min-height: 315px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box.bringing-new .vertical-title-wrapper {
+	margin: 33px 0 146px auto;
+	min-height: 315px;
+}
+
+body#philosophy .product-wrapper .second-section .content-wrapper.okashiya .vertical-title-wrapper {
+	min-height: 252px;
+}
+
+body#philosophy .product-wrapper .second-section .content-wrapper.seasonal-okashiya .vertical-title-wrapper {
+	min-height: 212px;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+body#philosophy .philosophy-section .first-section-texts {
+	padding: 220px 125px 0;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	padding: 0 30px 220px;
+}
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+body#philosophy .philosophy-section .first-section-texts {
+	height: 100vh;
+	margin-bottom: 150px;
+	padding: 0px 78px 0;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text,
+body#philosophy .philosophy-section .first-section-texts .left-box .description {
+	font-size: 14px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text.sp,
+body#philosophy .philosophy-section .first-section-texts .left-box .description.sp {
+	margin-bottom: 18px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .title {
+	font-size: 19px;
+	margin-bottom: 103px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .left-box .sub-title-sp {
+	font-size: 14px;
+}
+
+body#philosophy .philosophy-section .second-section {
+	margin: 150px auto;
+}
+
+body#philosophy .philosophy-section .second-section .content-out-wrapper {
+	padding: 0 42px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.future {
+	padding-bottom: 110px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.future .vertical-title-wrapper {
+	min-height: 158px;
+}
+
+body#philosophy .philosophy-section .second-section .vertical-title-wrapper {
+	min-height: initial;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	padding: 0 25px 110px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+body#philosophy .philosophy-section .second-section #philosophy_top .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+    line-height: 2.3 !important;
+}
+    
+#philosophy_top .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+    line-height: 2.3 !important;
+}
+
+body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+body#philosophy .philosophy-section .second-section #kjima-teppei .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+body#philosophy .philosophy-section .second-section #yamanaka-text .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+    
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .vertical-title-wrapper {
+	font-size: 14px;
+	margin: 40px 0 73px auto;
+	min-height: initial;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box.land .vertical-title-wrapper {
+	font-size: 14px;
+	margin: 0px 0 73px auto;
+	min-height: 154px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box.bringing-new .vertical-title-wrapper {
+	font-size: 14px;
+	margin: 0px 0 73px auto;
+	min-height: 138px;
+}
+
+    
+body#philosophy .product-wrapper .second-section .content-wrapper.okashiya .vertical-title-wrapper {
+	min-height: initial;
+}
+
+body#philosophy .product-wrapper .second-section .content-wrapper.seasonal-okashiya .vertical-title-wrapper {
+	min-height: 103px;
+}
+    
+}
+
+
+@media screen and (max-width: 480px) {
+
+body#philosophy .philosophy-section .first-section-texts {
+	padding: 0px 60px 0;
+}
+}
+
+
+
+/* # ==============================================================
+   # Sample code 
+   # ============================================================== */
+body#philosophy .philosophy-section .first-section-texts .left-box .text {
+	height: 337px;
+}
+
+body#philosophy .philosophy-section .first-section-texts .right-box {
+	width: 30%;
+}
+
+body#philosophy .philosophy-section .second-section {
+	/*margin-top: 288px;*/
+    /*margin-top: 160px;*/
+    margin-top: 60px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.horizontal {
+	padding-bottom: 267px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box {
+	margin: 0 auto;
+	position: relative;
+}
+
+body#philosophy .philosophy-section .second-section .content-box.sticky {
+	-webkit-box-pack: initial;
+	-webkit-justify-content: initial;
+	-ms-flex-pack: initial;
+	height: 100%;
+	justify-content: initial;
+	max-width: 900px;
+	padding-left: 34px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .left-box {
+	position: relative;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .left-box.img-box {
+	margin-right: 0;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .left-box.img-box .img {
+	-o-object-fit: cover;
+	aspect-ratio: 840/560;
+	object-fit: cover;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticky-box {
+	overflow: hidden;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 5vh;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticky-box .sticky-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box {
+	height: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box {
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	-ms-transition: opacity 0.4s;
+	-o-transition: opacity 0.4s;
+	height: 635px;
+	margin-bottom: 100px;
+	opacity: 0;
+	transition: opacity 0.4s;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.is-active,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.sp {
+	opacity: 1;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .text-box .text {
+	line-height: 1.7;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.upper-box {
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	margin-left: 210px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.lower-box {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	justify-content: center;
+	margin-left: 75px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 62px;
+	max-width: 679px;
+	position: relative;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper::after {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 1px;
+	left: 0;
+	max-width: 679px;
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper .hidden-input {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #spring:checked ~ .spring {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #summer:checked ~ .summer {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #fall:checked ~ .fall {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #winter:checked ~ .winter {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #spring-sp:checked ~ .spring {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #summer-sp:checked ~ .summer {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #fall-sp:checked ~ .fall {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper #winter-sp:checked ~ .winter {
+	border-bottom: 1px solid #000;
+	color: #333333;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper .category-title {
+	border-bottom: none;
+	color: rgba(51, 51, 51, 0.5);
+	font-size: 15px;
+	padding: 0 26px 15px 26px;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper .category-title.all {
+	margin-left: 0px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu {
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	display: none;
+	transition: 0.4s;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .menu-title {
+	font-size: 15px;
+	margin-bottom: 62px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-name {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	font-size: 15px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-list-title {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-right: 15px;
+	min-width: 2rem;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .menu-list-wrapper .attention {
+	font-size: 13px;
+	margin-top: 60px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 840px;
+    /*padding-bottom: 267px;*/
+    padding-bottom: 0px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	aspect-ratio: 840/560;
+	margin-bottom: 80px;
+	overflow: relative;
+	width: 840px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box .picture {
+	-o-object-fit: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: end;
+	/*-webkit-justify-content: flex-end;*/
+    -webkit-justify-content: space-around;
+	-ms-flex-pack: end;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	/*justify-content: flex-end;*/
+    justify-content: space-around;
+	/*padding: 0 90px 267px;*/
+    /*padding: 0 90px 180px;*/
+    padding: 0 0px 60px;
+    /*padding: 0 0px 60px;*/
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+}
+
+/*body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+    height: 420px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}*/
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: horizontal-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    /*height: 420px;*/
+	/*letter-spacing: 1px;*/
+    letter-spacing: 0.2em;
+	line-height: 1.7;
+	writing-mode: horizontal-rl;
+}
+
+body#philosophy .philosophy-section .second-section #philosophy_top .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: horizontal-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    height: 420px;
+	/*letter-spacing: 1px;*/
+    letter-spacing: 0.2em;
+	/*line-height: 1.7;*/
+    line-height: 2.3 !important;
+	writing-mode: horizontal-rl;
+}
+
+#philosophy_top .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: horizontal-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    height: 420px;
+	/*letter-spacing: 1px;*/
+    letter-spacing: 0.2em;
+	/*line-height: 1.7;*/
+    line-height: 2.3 !important;
+	writing-mode: horizontal-rl;
+}
+
+/*body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+    height: 400px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}
+*/
+body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: horizontal-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    height: 400px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: horizontal-rl;
+}
+
+
+body#philosophy .philosophy-section .second-section #kjima-teppei .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    height: 320px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}
+body#philosophy .philosophy-section .second-section #yamanaka-text .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    height: 320px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}
+
+/*body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 15px;
+	height: 321px;
+    height: 380px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}*/
+
+body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: horizontal-rl;
+	font-size: 15px;
+	/*height: 321px;*/
+    height: 380px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	writing-mode: horizontal-rl;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.pc {
+	/*display: block;*/
+    /*テキスト下揃え*/display: flex;
+    /*テキスト下揃え*/align-items: flex-end;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 14px;
+	/*height: 321px;*/
+    height: 420px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	margin-right: 30px;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention.pc {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention.sp {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .title-box {
+	/*margin: 0 0 0 82px;*/
+    margin: 0 0 0 0px;
+	min-height: 321px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .title-box .vertical-title-wrapper {
+	min-height: 321px;
+}
+
+body#philosophy .philosophy-section .third-section {
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	max-width: 1211px;
+	padding: 290px 94.5px;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-end;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .title {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 16px;
+	height: 180px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .attention {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 13px;
+	height: 230px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	margin-right: 30px;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .button-box {
+	cursor: pointer;
+	height: 100%;
+	margin-right: 84px;
+	margin-top: auto;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	align-items: flex-start;
+	display: none;
+	justify-content: flex-end;
+	margin-top: 193px;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .title {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 16px;
+	height: 300px;
+	line-height: 1.7;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .border::before {
+	/*border-left: 1px solid #000;*/
+    /*border-left: 1px solid #fff;*/
+    border-left: none;
+	content: "";
+	display: block;
+	height: 30px;
+	margin: 0 10px;
+	width: 1px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .text {
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode: vertical-rl;
+	font-size: 13px;
+	height: 334px;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	margin-left: 59px;
+	writing-mode: vertical-rl;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .text:last-child {
+	margin-left: 0px;
+}
+
+body#philosophy .philosophy-section .slider {
+	position: relative;
+}
+
+body#philosophy .philosophy-section .swiper-pagination {
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
+	background: #ccc;
+	border-radius: 1px;
+	bottom: -25px;
+	height: 1px;
+	left: 20px;
+	top: initial;
+	width: 95px;
+}
+
+body#philosophy .philosophy-section .swiper-pagination .swiper-pagination-progressbar-fill {
+	background: #000;
+}
+
+body#philosophy .philosophy-section .swiper-wrapper {
+	overflow: hidden;
+}
+
+body#philosophy .philosophy-section .swiper-button-next {
+	height: 100%;
+	margin-top: 0;
+	right: 0;
+	top: 0;
+	width: 50%;
+}
+
+body#philosophy .philosophy-section .swiper-button-next::after {
+	opacity: 0;
+}
+
+body#philosophy .philosophy-section .swiper-button-prev {
+	height: 100%;
+	left: 0;
+	margin-top: 0;
+	top: 0;
+	width: 50%;
+}
+
+body#philosophy .philosophy-section .swiper-button-prev::after {
+	opacity: 0;
+}
+
+body#philosophy .philosophy-section .pc {
+	display: block;
+}
+
+body#philosophy .philosophy-section .sp {
+	display: none;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+body#philosophy .philosophy-section .third-section {
+	max-width: 1087px;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+body#philosophy .philosophy-section .second-section .content-box {
+	padding: 0 15px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.upper-box {
+	margin-left: 185px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.lower-box {
+	margin-bottom: 0;
+	margin-left: 35px;
+}
+}
+
+
+@media screen and (max-width: 1080px) {
+
+body#philosophy .philosophy-section .second-section .description-img-box4 {
+	max-width: initial;
+    padding-bottom: 114px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	margin-bottom: 47px;
+	width: 100vw;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .title {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	height: initial;
+	letter-spacing: 0px;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .border::before {
+	/*border-top: 1px solid #000;*/
+    /*border-left: 1px solid #fff;*/
+    border-left: none;
+	content: "";
+	display: block;
+	height: 1px;
+	margin: 10px 0;
+	width: 30px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 48px;
+	margin-left: 0px;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .text:last-child {
+	margin-bottom: 0px;
+}
+}
+
+
+@media screen and (max-width: 991px) {
+
+body#philosophy .philosophy-section .first-section-texts .left-box .text {
+	height: auto;
+}
+
+body#philosophy .philosophy-section .second-section {
+	/*margin: 300px auto 0px;*/
+    margin: 80px auto 0px;
+}
+
+body#philosophy .philosophy-section .second-section .content-out-wrapper {
+	padding: 0 95px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.sp {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.horizontal {
+	padding-bottom: 220px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.kaiseki .vertical-title-wrapper {
+	min-height: 252px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.seasonal-kaiseki .vertical-title-wrapper {
+	min-height: 212px;
+}
+    
+body#philosophy .philosophy-section .second-section .content-wrapper.okashiya .vertical-title-wrapper {
+	min-height: 252px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.seasonal-okashiya .vertical-title-wrapper {
+	min-height: 212px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.yutori {
+	min-height: 180px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.crab-kaiseki {
+	min-height: 215px;
+}
+   
+    
+body#philosophy .philosophy-section .second-section .content-wrapper.crab-okashiya {
+	min-height: 215px;
+}
+   
+    
+    
+
+body#philosophy .philosophy-section .second-section .content-box {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+body#philosophy .philosophy-section .second-section .content-box.sticky {
+	padding-left: 0;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .left-box {
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticky-box {
+	position: initial;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	height: auto;
+	justify-content: center;
+	opacity: 1;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .title-box {
+	margin-left: auto;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.upper-box {
+	margin-left: 0;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box.lower-box {
+	margin-left: 0;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-section {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper {
+	margin-bottom: 73px;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper .category-title {
+	font-size: 33px;
+	margin-left: 0;
+	padding: 15px 26px;
+	width: 100%;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .menu-title {
+	font-size: 25px;
+	margin-bottom: 73px;
+	margin-bottom: 36px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-name {
+	font-size: 25px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-list-title {
+	margin-right: 25px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .menu-list-wrapper {
+	margin: 0 auto;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .menu-list-wrapper .attention {
+	font-size: 25px;
+	margin-top: 70px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	padding: 0 50px 220px;
+    padding: 0 50px 40px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+}
+body#philosophy .philosophy-section .second-section #philosophy_top .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15x;
+	height: initial;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+    line-height: 2.3 !important;
+}
+    
+#philosophy_top .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+    line-height: 2.3 !important;
+}
+
+body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .second-section #kjima-teppei .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+}
+    
+    
+body#philosophy .philosophy-section .second-section #yamanaka-text .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+}
+
+
+body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 50px;
+	writing-mode: horizontal-tb;
+}
+    
+    
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text.sp {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 15px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-right: 0px;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention.pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention.sp {
+	display: block;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .title-box {
+	margin: 10px 0 146px auto;
+	min-height: initial;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .title-box .vertical-title-wrapper {
+	min-height: 258px;
+}
+
+body#philosophy .philosophy-section .third-section {
+	max-width: 521px;
+	padding: 240px 32px;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .title {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 26px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-bottom: 32px;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .attention {
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode: horizontal-tb;
+	font-size: 25px;
+	height: initial;
+	letter-spacing: 0px;
+	margin-right: 0px;
+	writing-mode: horizontal-tb;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .button-box {
+	margin-left: auto;
+	margin-right: 0px;
+	margin-top: 70px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box {
+	margin-bottom: 146px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .title {
+	font-size: 26px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .text {
+	font-size: 25px;
+	margin-right: 0px;
+}
+
+body#philosophy .philosophy-section .swiper-pagination {
+	bottom: -86px;
+	left: 25px;
+	width: 166px;
+}
+
+body#philosophy .philosophy-section .pc {
+	display: none;
+}
+
+body#philosophy .philosophy-section .sp {
+	display: -webkit-box;
+	/*display: -webkit-flex;*/
+	display: -ms-flexbox;
+	/*display: flex;*/
+}
+}
+
+@media screen and (max-width: 767px) {
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	aspect-ratio: 840/560;
+}
+  
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	padding: 0 30px 220px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	aspect-ratio: 840/560;
+}
+    
+body#philosophy .philosophy-section .second-section {
+	/*margin: 150px auto 0px;*/
+    margin: 50px auto 0px;
+    /*margin: 110px auto 0px;*/
+}
+
+body#philosophy .philosophy-section .second-section .content-out-wrapper {
+	padding: 0 42px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.horizontal {
+	padding-bottom: 110px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.kaiseki .vertical-title-wrapper {
+	min-height: initial;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.seasonal-kaiseki .vertical-title-wrapper {
+	min-height: 103px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.yutori {
+	min-height: 90px;
+}
+
+body#philosophy .philosophy-section .second-section .content-wrapper.crab-kaiseki {
+	min-height: 105px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper {
+	margin-bottom: 36px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper::after {
+	height: 168px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .category-title-wrapper .category-title {
+	font-size: 14px;
+	padding: 8px 13px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .menu-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .menu-title {
+	font-size: 12px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box {
+	margin-bottom: 10px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-name,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-name {
+	font-size: 12px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .spring-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .summer-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .fall-menu .list-wrapper .list-box .menu-list-title,
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .winter-menu .list-wrapper .list-box .menu-list-title {
+	font-size: 12px;
+}
+
+body#philosophy .philosophy-section .second-section .content-box .sticked-box .right-box .menu-list-wrapper .attention {
+	font-size: 10px;
+	margin-top: 35px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .left-box {
+	margin-bottom: 0px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box {
+	/*padding: 0 25px 110px;*/
+    padding: 0 25px 40px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+body#philosophy .philosophy-section .second-section #philosophy_top .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+    line-height: 2.3 !important;
+}
+    
+#philosophy_top .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+    line-height: 2.3 !important;
+}
+body#philosophy .philosophy-section .second-section #rokkanan_top .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}   
+body#philosophy .philosophy-section .second-section #yamanaka-text .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+body#philosophy .philosophy-section .second-section #kjima-teppei .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+body#philosophy .philosophy-section .second-section #hakobune-text .description-img-box4 .right-box .text-box .text {
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+    
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .text-box .attention {
+	font-size: 14px;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .title-box {
+	/*margin: 40px 0 73px auto;*/
+    margin: 40px 0 0px auto;
+}
+
+body#philosophy .philosophy-section .second-section .description-img-box4 .right-box .title-box .vertical-title-wrapper {
+	font-size: 14px;
+	/*min-height: 125px;*/
+    min-height: auto;
+}
+
+body#philosophy .philosophy-section .third-section {
+	margin: 0 42px;
+	max-width: initial;
+	padding: 120px 25px;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .title {
+	font-size: 13px;
+	margin-bottom: 16px;
+}
+
+body#philosophy .philosophy-section .third-section .attention-box .attention {
+	font-size: 12px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box {
+	margin-bottom: 73px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .title {
+	font-size: 13px;
+}
+
+body#philosophy .philosophy-section .third-section .explanation-box .text {
+	font-size: 12px;
+}
+
+body#philosophy .philosophy-section .swiper-pagination {
+	bottom: -44px;
+	left: 28px;
+	width: 83px;
+}
+
+}
+
+
+

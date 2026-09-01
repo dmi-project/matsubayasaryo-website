@@ -1,0 +1,251 @@
+.movie-section {
+	height: 100%;
+	margin-bottom: 0px;
+    
+    /*margin-bottom: 289px;*/
+    /*margin-bottom: 160px;*/
+	/*padding: 126px 0 0;*/
+    padding: 0px 0 0;
+        
+	width: 100%;
+}
+
+.movie-section .inner-wrapper {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+}
+
+
+.movie-section .movie-view-box {
+	aspect-ratio: 9/16;
+	position: relative;
+	width: 420px;
+    margin: 0 5px;
+}
+
+.movie-section .movie-view-box .swiper-wrapper {
+	aspect-ratio: 9/16;
+	overflow: hidden;
+	width: 420px;
+}
+
+.movie-section .movie-view-box .swiper-wrapper .l-img {
+	width: 420px;
+}
+
+/*.movie-section .movie-view-box > picture {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}*/
+
+
+.movie-section .movie-view-box > video {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+.movie-section .inner-wrapper {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.movie-section .movie-view-box {
+	aspect-ratio: 9/16;
+	position: relative;
+	width: 300px;
+    margin: 0 5px;
+}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.movie-section .movie-view-box {
+	aspect-ratio: 9/16;
+	position: relative;
+	width: 280px;
+    margin: 0 5px;
+}
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    
+.movie-section .movie-view-box > video {
+	display: block;
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.movie-section {
+	margin-bottom: 324px;
+    margin-bottom: 0px;
+}
+
+
+.movie-section .movie-view-box {
+	/*aspect-ratio: initial;*/
+	padding: 0 20px;
+    aspect-ratio: 9/16;
+	position: relative;
+	width: 400px;
+    margin: 0 5px;
+}
+
+.movie-section .movie-view-box .swiper-wrapper {
+	width: 100%;
+}
+
+.movie-section .movie-view-box .swiper-wrapper .l-img {
+	width: 100%;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+.movie-section .movie-view-box {
+	aspect-ratio: initial;
+	padding: 0 99px;
+	width: 35rem;
+}
+}
+
+@media screen and (max-width: 650px) {
+
+.movie-section {
+	/*margin-bottom: 162px;*/
+    margin-bottom: 80px;
+	/*padding: 70px 85px 0;*/
+    /*padding: 20px 20px 0;*/
+    padding: 20px 5px 0;
+}
+
+
+
+.movie-section .movie-view-box {
+	aspect-ratio: initial;
+	padding: 0 0px;
+	width: 100%;
+}
+
+
+
+
+}
+
+/* =========================================
+   Movie Thumbs
+========================================= */
+.movie-thumb{
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.movie-thumb img{
+  width: 100%;
+  display: block;
+}
+
+/* play icon */
+.movie-thumb .play-icon{
+  position:absolute;
+  inset:0;
+  margin:auto;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:rgba(0,0,0,0.6);
+}
+.movie-thumb .play-icon::before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-40%,-50%);
+  border-style:solid;
+  border-width:12px 0 12px 18px;
+  border-color:transparent transparent transparent #fff;
+}
+
+/* =========================================
+   Movie Modal
+========================================= */
+.movie-modal{
+  position:fixed;
+  inset:0;
+  display:none;
+  z-index:9999;
+}
+.movie-modal.is-open{
+  display:block;
+}
+
+.movie-modal-overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.75);
+}
+
+.movie-modal-dialog{
+  position:relative;
+  width:min(960px, 92vw);
+  margin:8vh auto 0;
+  background:#000;
+}
+
+.movie-modal-close{
+  position:absolute;
+  top:-44px;
+  right:0;
+  width:44px;
+  height:44px;
+  border:0;
+  background:transparent;
+  color:#fff;
+  font-size:32px;
+  line-height:44px;
+  cursor:pointer;
+}
+
+#movieModalPlayer video{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
